@@ -1,0 +1,7 @@
+CREATE TABLE admin(
+    id BIGINT NOT NULL AUTO_INCREMENT,
+    user VARCHAR(300) NOT NULL UNIQUE,
+    password BIGINT NOT NULL,
+    PRIMARY KEY(id)
+);
+
